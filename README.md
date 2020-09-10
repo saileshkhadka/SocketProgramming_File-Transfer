@@ -29,6 +29,6 @@ and
 terminal
 python receiver.py
 
-but if you choose 2:
-python
-recv_file = open('anyName.yourformat','wb')
+but if you choose 2: 
+
+python recv_file = open('anyName.yourformat','wb')
