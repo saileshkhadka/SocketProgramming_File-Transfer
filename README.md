@@ -1,9 +1,13 @@
+# SocketProgramming_File-Transfer
+This program helps to transfer file from server to client using socket programming.
+
+
 
 
 ## Requirements: 
 
-  python2
-  socket
+  - python2
+  - socket
 
  
 ## How to run?
@@ -25,6 +29,6 @@ and
 terminal
 python receiver.py
 
-but if you choose 2:
-python
-recv_file = open('anyName.yourformat','wb')
+but if you choose 2: 
+
+python recv_file = open('anyName.yourformat','wb')
