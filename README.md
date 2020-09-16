@@ -1,34 +1,4 @@
-# SocketProgramming_File-Transfer
-This program helps to transfer file from server to client using socket programming.
 
+Sender : The server will host the network using the assigned host and port using which the client will connect to the server.The user will have to input the filename of the file that he/she would like to transmit. The user must make sure that the file that needs to be sent is in the same directory as the "sender.ipynb" program.
 
-
-
-## Requirements: 
-
-  - python2
-  - socket
-
- 
-## How to run?
-if you are sender copy your files to dir and run:
-set your file name in sender.ipynb first `
-
-
-if you are receiver you have 2 options:
-
--  1- Simply recv the file with orginal format
--  2- Recv the file with converted format
-
-if you choose 1 then
-ask your sender to tell you orginal format and set it to receiver.py:
-python
-recv_file = open('anyName.askYourServerToTellYourFormat','wb')
-
-and
-terminal
-python receiver.py
-
-but if you choose 2: 
-
-python recv_file = open('anyName.yourformat','wb')
+Receiver: The client program will prompt the user to enter the host address of the sender while the port will already be assigned to the port variable. Once the client program has connected to the server it will ask the user for a filename to be used for the file that will be received from the server. Lastly the client program will receive the file and leave it in the same directory under the same filename set as the user.
